@@ -1,0 +1,23 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-wildrydes-prod-03716-authRole",
+      "UnauthRoleArn": "arn:aws:iam::432131719131:role/amplify-wildrydes-prod-03716-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::432131719131:role/amplify-wildrydes-prod-03716-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-wildrydes-prod-03716-deployment",
+      "UnauthRoleName": "amplify-wildrydes-prod-03716-unauthRole",
+      "StackName": "amplify-wildrydes-prod-03716",
+      "StackId": "arn:aws:cloudformation:us-east-1:432131719131:stack/amplify-wildrydes-prod-03716/60f26630-29ff-11eb-882e-0e1cfc6fd327",
+      "AmplifyAppId": "d2ma6l7uu5bklg"
+    }
+  },
+  "auth": {
+    "wildrydes13a863b7": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
